@@ -5,11 +5,15 @@
     git clone https://gitlab.com/Bekbolsunn/doctour-api/
 
 ### |Быстрый старт
+
 #### Скачайте docker перед этим https://www.docker.com/
+
     sudo docker-compose up --build
 
 ### |Вручную
+
 #### 1) Создать venv и актиvироvать
+
     python -m venv venv
 
     🪟 Windows:
@@ -17,7 +21,6 @@
 
     🐧linux and 🍏 OS X:
     source venv/bin/activate
-    
 
 #### 3) Скачать зависимости
 
@@ -30,4 +33,6 @@
 #### 5) Применить миграции и запустить проект
 
     python manage.py makemigrations && python manage.py migrate && python manage.py runserver
+
+#### Или же проще sh run.sh
 
